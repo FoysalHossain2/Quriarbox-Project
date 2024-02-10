@@ -1,0 +1,17 @@
+/* =======services part========= */
+.list li::before {
+    content: '';
+    position: absolute;
+    width: 7.31px;
+    height: 7px;
+    background-color: #F95C19;
+    margin-top: 7.70px;
+    margin-left: -18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* =======services part========= */
+

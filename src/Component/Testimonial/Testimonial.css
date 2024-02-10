@@ -1,0 +1,11 @@
+.before {
+    position: relative;
+}
+
+.before::before {
+    position: absolute;
+    content: url("../../assets/quotation.png");
+    width: 20px;
+    height: 20px;
+    margin-left: -250px;
+}
