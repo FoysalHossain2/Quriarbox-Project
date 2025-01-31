@@ -2,7 +2,7 @@ import React from 'react'
 import Flex from '../commonComponent/Flex'
 import Card from '../commonComponent/Card'
 import Button from '../../Component/commonComponent/Button'
-import icon1 from '../../assets/icon1.png'
+import icon01 from '../../assets/icon01.png'
 import icon2 from '../../assets/icon2.png'
 import icon3 from '../../assets/icon3.png'
 import './Services.css'
@@ -17,7 +17,7 @@ const Services = () => {
             <Flex className='gap-1 justify-between'>
                 <Card className='w-[32%] mx-w-[424px] mx-h-[583px]
                  bg-white rounded-[16px] '
-                  img={icon1}
+                  img={icon01}
                   card__title='Business Services'
                   card__desc='We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.'
                   >
