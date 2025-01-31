@@ -2,9 +2,9 @@ import React from 'react'
 import Flex from '../commonComponent/Flex'
 import Card from '../commonComponent/Card'
 import Button from '../../Component/commonComponent/Button'
-import icon01 from '../../assets/icon01.png'
-import icon2 from '../../assets/icon2.png'
-import icon3 from '../../assets/icon3.png'
+import icon01 from '../../../src/assets/icon01.png'
+import icon2 from '../../../src/assets/icon2.png'
+import icon3 from '../../../src/assets/icon3.png'
 import './Services.css'
 
 const Services = () => {
