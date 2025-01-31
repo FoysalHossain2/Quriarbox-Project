@@ -2,9 +2,9 @@ import React from 'react'
 import Flex from '../commonComponent/Flex'
 import Card from '../commonComponent/Card'
 import Button from '../../Component/commonComponent/Button'
-import icon01 from '../../../src/assets/icon01.png'
-import icon2 from '../../../src/assets/icon2.png'
-import icon3 from '../../../src/assets/icon3.png'
+// import icon01 from '../../../src/assets/icon01.png'
+// import icon2 from '../../../src/assets/icon2.png'
+// import icon3 from '../../../src/assets/icon3.png'
 import './Services.css'
 
 const Services = () => {
@@ -17,7 +17,7 @@ const Services = () => {
             <Flex className='gap-1 justify-between'>
                 <Card className='w-[32%] mx-w-[424px] mx-h-[583px]
                  bg-white rounded-[16px] '
-                  img={icon01}
+                  // img={icon01}
                   card__title='Business Services'
                   card__desc='We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.'
                   >
@@ -36,7 +36,7 @@ const Services = () => {
                    </div>
                 </Card>
                 <Card className='w-[32%] mx-w-[ 424px] mx-h-[583px] bg-white rounded-[16px]'
-                  img={icon2}
+                  // img={icon2}
                   card__title='Statewide Services'
                   card__desc='Offering home delivery around the city, where your products will be at your doorstep within 48-72 hours.'
                   card__list='Personal items'
@@ -61,7 +61,7 @@ const Services = () => {
                  
                 </Card>
                 <Card className='w-[32%] mx-w-[ 424px] mx-h-[583px] bg-white rounded-[16px]'
-                  img={icon3}
+                  // img={icon3}
                   card__title='Personal Services'
                   card__desc='You can trust us to safely deliver your most sensitive documents to the specific area in a short time.'
                   card__list='Gifts'
