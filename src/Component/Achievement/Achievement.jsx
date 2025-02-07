@@ -1,5 +1,4 @@
 import React from 'react'
-import Flex from '../commonComponent/Flex'
 import Awards from '../../assets/Awards.png'
 import stateCover from '../../assets/stateCover.png'
 import client from '../../assets/client.png'
@@ -11,7 +10,7 @@ const Achievement = () => {
     return (
     <section className='bg-gradient-to-r from-[#fff7e7] to-[#fff1dc] py-[100px]'>
       <div className='container w-[1320px]'>
-        <Flex className='justify-between gap-[50px]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-[50px]'>
           <div className='flex flex-col justify-center items-center'>
             <picture>
               <img src={Awards} alt={Awards} className='mb-[10px]'  />
@@ -67,7 +66,7 @@ const Achievement = () => {
               Business hours
             </p>
           </div>
-        </Flex>
+        </div>
       </div>
     </section>
   )
